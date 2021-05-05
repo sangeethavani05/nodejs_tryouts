@@ -1,6 +1,9 @@
-
 const tode = require('tode')
+
+console.log('tode: ', tode)
 const queue = tode.Q;
+
+console.log('queue: ',queue)
 
 //Queue Configurations
 const queueConf = {
