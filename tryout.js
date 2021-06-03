@@ -1,6 +1,26 @@
-const _ = require('lodash');
-const moment = require('moment')
+// const _ = require('lodash');
+// const moment = require('moment')
+// var express = require('express')
+// var morgan = require('morgan')
+ 
+// var app = express()
+ 
+// app.use(morgan('combined'))
 
+// app.listen(8000)
+ 
+// app.get('/', function (req, res) {
+//   res.send('hello, world!')
+// })
+
+var X = { Foo : 1}; 
+var output = (function() 
+{ 
+delete X.foo; 
+return X.foo; 
+} 
+)(); 
+console.log(output);
 // const request = {
 //     accountId: "",
 //     userId: "",
@@ -320,10 +340,10 @@ const moment = require('moment')
 
 // console.log(sortedActivities)
 
-let my_date = '2021-05-07 06:00:00 -0400'
+// let my_date = '2021-05-07 06:00:00 -0400'
 
-// Fri May 07 09:00:00 UTC 2021
-// console.log(new Date(my_date))
+// // Fri May 07 09:00:00 UTC 2021
+// // console.log(new Date(my_date))
 
-let result = moment.utc(new Date(my_date)).add(1,'hour').format('ddd MMM DD HH:mm:ss z YYYY');
-console.log(result)
+// let result = moment.utc(new Date(my_date)).add(1,'hour').format('ddd MMM DD HH:mm:ss z YYYY');
+// console.log(result)
