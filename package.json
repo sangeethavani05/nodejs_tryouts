@@ -21,6 +21,7 @@
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
     "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
     "node-clickatell": "0.0.5",
     "node-resque": "^8.2.4",
     "opentelemetry-exporter-datadog": "^0.2.0",
